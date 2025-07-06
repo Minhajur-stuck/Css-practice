@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Survey Form</title>
+  <link rel="stylesheet" href="form-style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Manufacturing+Consent&family=Sofia&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank for Filling the form.</p>
+    <form action="" id="survey-form">
+      <label for="name" class="name-label">Name:</label><br>
+      <input required type="text" id="name" placeholder="Write your name"><br>
+      <label for="email" class="name-label">Email:</label><br>
+      <input required type="email" id="email" placeholder="give your email"><br>
+      <label for="number" class="name-label">Number:</label><br>
+      <input type="number"id="number" max="14" min="11" placeholder="type number"><br>
+      <p class="name-label" id="food">chooes your fav programming lang</p>
+      <select id="dropdown">
+        <option selected value="select">Select option</option>
+        <option value="javascript">Javascript</option>
+        <option value="phython">Phython</option>
+      </select>
+      
+        <p class="name-label" id="food">Choose Your fav food</p>
+        <input checked type="radio" name="fav-food" id="noddle"><label for="noddle" class="food-label">Noddles</label>
+        <input type="radio" name="fav-food" id="Salad"><label for="Salad" class="food-label">Salad</label>
+         <input type="radio" name="fav-food" id="Salad"><label for="Salad" class="food-label">Beef</label>
+          <input type="radio" name="fav-food" id="Salad"><label for="Salad" class="food-label">Chiken fry</label>
+
+        <p class="name-label" id="food">Select Your personality</p>
+        <input checked type="checkbox" id="strong" value="personality"><label for="strong" class="food-label">Strong</label>
+        <input type="checkbox" id="weak" value="personality"><label for="weak" class="food-label">Weak</label>
+        <input type="checkbox" id="weak" value="personality"><label for="weak" class="food-label">lazy</label>
+        <input type="checkbox" id="weak" value="personality"><label for="weak" class="food-label">susi</label>
+        <input type="checkbox" id="weak" value="personality"><label for="weak" class="food-label">pesi</label>
+
+    
+        <textarea class="textarea" placeholder="write a comment"></textarea><br>
+        <input type="submit" id="submit">
+    </form>
+  </div>
+</body>
+</html>
